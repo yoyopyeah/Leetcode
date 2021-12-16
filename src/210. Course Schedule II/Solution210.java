@@ -1,4 +1,4 @@
-public class Solution {
+public class Solution210 {
     public static int[] findOrder(int numCourses, int[][] prerequisites) {
         int[] ans = new int[numCourses];
         for (int i = 0 ; i < prerequisites.length; i++) {
@@ -29,7 +29,7 @@ public class Solution {
         return result;
     }
     
-    public static void main(String args) {
+    public static void main(String[] args) {
         int[] test = {1,2,4,5};
         System.out.println(insertElement(test, 2, 3));
     }
