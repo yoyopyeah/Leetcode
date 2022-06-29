@@ -5,6 +5,27 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Leetcode_907a4be0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution39",
+            "request": "launch",
+            "mainClass": "Solution39",
+            "projectName": "Leetcode_907a4be0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution39",
+            "request": "launch",
+            "mainClass": "${file}",
+            "projectName": "Leetcode_907a4be0"
+        },
+        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
